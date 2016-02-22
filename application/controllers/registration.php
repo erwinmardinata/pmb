@@ -374,7 +374,7 @@ class Registration extends CI_Controller {
 		$jalur = $this->input->post('jalur');
 		$aksi = $this->input->post('aksi');
 		
-		$cek = $this->registrasimodel->getData('pendaftar', 'id', 'DESC')->row();
+		$cek = $this->registrasimodel->getDataWhere('pendaftar', 'jalur', $jalur)->row();
 
 		if(empty($cek)) {
 			$noNew = '0001'; 
