@@ -1,0 +1,37 @@
+.a {
+	padding-bottom: 203px;
+}
+
+.b {
+	padding: 0;
+}
+
+.isi {
+	padding-top: 17px;
+	box-shadow: 0px 0px 17px;
+}
+
+footer {
+	margin-top: 17px;
+	box-shadow: 0px 0px 2px;
+	padding: 20px;
+}
+
+header {
+    background-color: rgb(230, 186, 33);
+    color: #FFF;
+    padding: 10px;
+    text-align: right;
+}
+
+.navbar-inverse {
+    background-color: #E6CA56;
+    border-color: transparent;
+}
+
+footer {
+    padding: 10px;
+    color: #FFF;
+    font-size: 12px;
+    background-color: rgb(230, 186, 33);
+}
